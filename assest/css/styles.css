@@ -1,0 +1,28 @@
+.main-menu li {
+    position: relative;
+}
+
+.main-menu li::after {
+    position: absolute;
+    content: '';
+    background: #ff384b;
+    height: 4px;
+    width: 0;
+    left: 0;
+    bottom: -15px;
+    transition: .3s;
+}
+
+.main-menu li:hover::after {
+    width: 100%;
+
+}
+
+.text-color {
+    color: #ff384b;
+}
+
+.bg-color {
+    background-color: #ff384b;
+    border: 2px solid #ff384b;
+}
