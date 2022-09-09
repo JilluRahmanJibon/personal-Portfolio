@@ -48,6 +48,32 @@
     opacity: 0.9;
 }
 
+.education-body::before {
+    content: "";
+    position: absolute;
+    left: -26px;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: #ffe6e4;
+    height: 100%;
+    margin-right: 5px;
+}
+
+.education-content::before {
+    position: absolute;
+    content: "";
+    box-shadow: 0px 4px 8px 0px rgba(255, 61, 79, 0.3);
+    height: 20px;
+    width: 20px;
+    left: -34px;
+    border-radius: 50%;
+    background-color: rgb(255, 61, 79);
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(255, 255, 255);
+}
+
 /* Style the active class, and buttons on mouse-over */
 .active,
 .active-color:hover {
