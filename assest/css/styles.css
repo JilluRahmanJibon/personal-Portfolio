@@ -1,3 +1,9 @@
+body,
+html {
+    scroll-behavior: smooth !important;
+}
+
+
 .main-menu li {
     position: relative;
 }
@@ -31,11 +37,17 @@
 }
 
 .bg-color {
-    background-color: #ff384b;
+    background-color: #ff384b !important;
     border: 2px solid #ff384b;
 }
 
+.hover-bg-color:hover {
+    background: white !important;
+}
 
+.line-height {
+    line-height: 130px !important;
+}
 
 .inner-img::before {
     content: '';
