@@ -32,6 +32,14 @@ html {
 
 }
 
+/* Style the active class, and buttons on mouse-over */
+.active,
+.active-color:hover {
+    color: black !important;
+    border-bottom: 4px solid #ff384b;
+    transition: all;
+}
+
 .text-color {
     color: #ff384b;
 }
@@ -84,12 +92,4 @@ html {
     border-style: solid;
     border-width: 4px;
     border-color: rgb(255, 255, 255);
-}
-
-/* Style the active class, and buttons on mouse-over */
-.active,
-.active-color:hover {
-    color: black !important;
-    border-bottom: 4px solid #ff384b;
-    transition: all;
 }
